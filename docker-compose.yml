@@ -2,7 +2,7 @@ version: '3.7'
 services:
   node-app:
     image: puspenduofficial/matkaback:latest
-    container_name: matka
+    container_name: matka_portable
     ports:
       - "2535:2552"
     environment:
